@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debugging files
+logs/
+*.log
+*.out
+*.err
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# LangGraph-related files
+*.langgraph_cache/
+*.langgraph_history/
+
+# Dependencies
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.iml
+
+# Testing-related
+.coverage
+.tox/
+nosetests.xml
+pytest_cache/
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
