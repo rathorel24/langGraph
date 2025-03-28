@@ -4,7 +4,7 @@ import uvicorn
 from dotenv import load_dotenv
 from fastapi import FastAPI
 
-from app.api.endpoints import router as api_router
+from matrix.api.endpoints import router as api_router
 
 # Load environment variables from .env file
 load_dotenv()
@@ -24,8 +24,4 @@ app = create_app()
 
 
 def main():
-    uvicorn.run('app.main:app', host='0.0.0.0', port=9090, reload=True)
-
-
-if __name__ == '__main__':
-    main()
+    uvicorn.run('matrix.main:app', host='0.0.0.0', port=9090, reload=True)
